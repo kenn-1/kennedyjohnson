@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--This is an internal stylesheet-->
+     <style> 
+     #image{
+         width:200px;
+         animation:spin;
+         animation: 3s;
+     }
+     
+     body{
+         background: linear-gradient(to bottom left,lightgreen,blue);
+         color: white ;
+         font-size:15px;
+         font-family: arial,serif;
+    }
+
+    .firstparagraph{
+        border: dashed 1px black;
+        margin:10px;
+        padding:10px;
+    }
+
+    #Secondparagraph{
+        border:dotted 1px black;
+        margin:5px;
+        padding:5px;
+    }
+    .span1{font-weight:700}
+
+    }
+
+    @keyframs spin {
+        from{
+            translate:rotate(0deg)
+        }
+        to{
+            translate:rotate(360deg)
+        }
+    }
+    </style>
+</head>
+<body>
+    <h2> Panda </h2>
+    <div class="firstparagraph">
+    <p> Giant pandas have a distinctive appearance. Their thick black and white fur equips
+     them for life in cool forests. Their white coat with black markings is unique, with black patches round the eyes and ears, black legs, and 
+    a black band around the shoulders.Pandas are "lazy", eating and sleeping make their day.
+<span class="span1">An adult can eat 12–38 kilos of bamboo per day!</span> It's my favorite animal because they are cute and I always wanted to touch one. I also love 
+their unique fur coloring.</p>
+    </div>
+   <div id="Secondparagraph">
+    <p> <img  src="https://image.shutterstock.com/image-photo/sleeping-giant-panda-baby-260nw-120544951.jpg" 
+    alt="baby panda" id="image" class="animate"/>
+ </p>
+ </div>
+</body>
+</html>
