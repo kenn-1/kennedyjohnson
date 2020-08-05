@@ -1,17 +1,24 @@
-.container-fluid{ 
-    background-color: lightblue; 
-    height: 100px; 
-}
- .container-sm {
-     background-color:lightcoral;
- }
 
-.container-md{
-    background-color:lightpink;
+.jumbotron{
+    margin-top: 50px;
 }
-.container-lg{
-    background-color: lightsteelblue;
+.jumbotron-fluid{
+    height: auto;
 }
-.container-xl {
-    background-color:lightgrey;
+.row {
+    padding:20px;
+}
+.mobile-menu-wrapper{
+    height: 100vh;
+
+}
+.list-group-item >a {
+    color:white;
+}
+.section-header{
+    margin-bottom:20px;
+}
+
+.icon{
+
 }
